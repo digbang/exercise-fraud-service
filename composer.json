@@ -1,0 +1,38 @@
+{
+    "name": "digbang/exercise-fraud-service",
+    "description": "Servicio de fraude para ejercicio PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darío Govergun",
+            "email": "dgovergun@digbang.com"
+        },
+        {
+            "name": "Juan Falcón",
+            "email": "jfalcon@digbang.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "sentry/sentry": "^1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digbang\\FraudService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Digbang\\FraudService\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}
