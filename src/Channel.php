@@ -1,13 +1,11 @@
 <?php
 
-
 namespace Digbang\FraudService;
-
 
 class Channel
 {
-    const ONLINE = 'online';
-    const OFFLINE = 'offline';
+    protected const ONLINE = 'online';
+    protected const OFFLINE = 'offline';
 
     /** @var string */
     protected $value;

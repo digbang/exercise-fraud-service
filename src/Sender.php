@@ -2,11 +2,10 @@
 
 namespace Digbang\FraudService;
 
-
 class Sender
 {
     /**
-     * @param Data  $newMovement
+     * @param Data $newMovement
      * @param Data[] $lastMovements
      */
     public function send(Data $newMovement, array $lastMovements = [])

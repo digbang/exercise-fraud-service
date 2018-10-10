@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Digbang\FraudService;
-
 
 class Data
 {
