@@ -1,6 +1,6 @@
 {
     "name": "digbang/exercise-fraud-service",
-    "description": "Servicio de fraude para ejercicio PHP",
+    "description": "Digbang's Technical Challenge fraud service",
     "type": "library",
     "license": "MIT",
     "authors": [
